@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rediff test Suite">
+  <test thread-count="5" name="regression tests in rediff">
+    <classes>
+      <class name="com.rediff.qa.testcases.LandingPageTest"/>
+      <class name="com.rediff.qa.testcases.SignInPageTest"/>
+      <class name="com.rediff.qa.testcases.LogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
